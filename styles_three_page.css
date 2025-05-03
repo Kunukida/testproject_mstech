@@ -1,0 +1,130 @@
+body {
+    font-family: Georgia;
+    margin: 0;
+    background-color: #222;
+    color: #eee;
+}
+
+.main-content {
+    background-image: url("Items\6.webp"); 
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;  
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 30px;
+    width: 400px; 
+    text-align: left;
+}
+
+.form-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.form-container label input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.form-container button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+footer {
+    background-color: #222;
+    padding: 20px;
+    border-top: 1px solid #444;
+    color: #eee;
+    text-align: center;
+}
+
+.footer-nav {
+    margin-bottom: 20px;
+}
+
+.footer-nav a {
+    color: #eee;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 0.9em;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.footer-left, .footer-center, .footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-center a {
+    color: #eee;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+.a:link {
+    background-color: #eee;
+    color: #222;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .a:visited {
+    background-color: #eee;
+    color: #222;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .a:hover {
+    background-color: #eee;
+    color: #222;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
